@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CGameframework.cpp" />
+    <ClCompile Include="CGameobject.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Renderer.cpp">
+      <Filter>one</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>one</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>one</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>one</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameframework.h" />
+    <ClInclude Include="CGameobject.h" />
+    <ClInclude Include="readshader.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Renderer.h">
+      <Filter>one</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>one</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>one</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>one</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glfs" />
+    <None Include="vertex.glvs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="one">
+      <UniqueIdentifier>{a5f85311-3751-4085-8165-5ea49f667fc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
