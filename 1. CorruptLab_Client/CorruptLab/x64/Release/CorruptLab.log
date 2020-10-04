@@ -1,0 +1,78 @@
+﻿  Animation.cpp
+  CInstancingStandardShader.cpp
+  CNarrationMgr.cpp
+  EndingScene.cpp
+  Mgr_IndoorControl.cpp
+  Monster_Boss.cpp
+  Monster_Tosm.cpp
+  IndoorSecenMapObjectLoader.cpp
+  Mgr_Scene.cpp
+  CShader_ParticleClass.cpp
+  CSystem_Particle.cpp
+  Mgr_Item.cpp
+  LobbyScene.cpp
+  Mgr_Radiation.cpp
+  CShader_ShadowMRT.cpp
+  Mgr_Collision.cpp
+  Obect_Desk.cpp
+  Object_Camera.cpp
+  CorruptLab.cpp
+  Mesh_Skinned.cpp
+  컴파일하고 있습니다...
+  Mesh_SkyBox.cpp
+  Mesh_Terrain.cpp
+  Object_Door.cpp
+  Object_DrugMaker.cpp
+  Object_DynamicObj.cpp
+  Object_Effect.cpp
+  Object_Floor.cpp
+  Object_ItemBox.cpp
+  Object_Nosie.cpp
+  Object_Researcher.cpp
+  Object_RotatingItem.cpp
+  Object_StaticObj.cpp
+  Object_Terrain.cpp
+  MapObjectLoader.cpp
+  Material.cpp
+  DDSTextureLoader12.cpp
+  GameFramework.cpp
+  Mesh.cpp
+  Object_BillBoard.cpp
+  Object_UI.cpp
+  컴파일하고 있습니다...
+  Scene_Game2.cpp
+  Shader-Terrain.cpp
+  Shader_BaseUI.cpp
+  Shader_BillBoard.cpp
+  Shader_BillboardUI.cpp
+  Shader_CollisionBox.cpp
+  Shader_Effect.cpp
+  Shader_Floor.cpp
+  Shader_Item.cpp
+  Shader_LightMRT.cpp
+  Shader_Lobby.cpp
+  Shader_Minimap.cpp
+  Shader_MinmapFog.cpp
+  Shader_MRT.cpp
+  Object.cpp
+  Object_Player.cpp
+  Scene.cpp
+  Shader.cpp
+  Shader_Noise.cpp
+  Shader_ObjHP.cpp
+  컴파일하고 있습니다...
+  Shader_Radiation.cpp
+  Shader_SpecialFog.cpp
+  Shader_Standard.cpp
+  SoundMgr.cpp
+  stdafx.cpp
+  Timer.cpp
+  WICTextureLoader12.cpp
+  Monster_Yangmal.cpp
+  Monster.cpp
+  코드를 생성하고 있습니다.
+  2016 of 2030 functions (99.3%) were compiled, the rest were copied from previous compilation.
+    28 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  CorruptLab.vcxproj -> C:\Users\tjdtj\OneDrive\바탕 화면\Portfolio\CorruptLab_Client\x64\Release\CorruptLab.exe

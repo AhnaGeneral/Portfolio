@@ -1,0 +1,8 @@
+corruptLab폴더 -> CorruptLab.exe 실행시켜주세요
+
+그래픽카드의 위치에 따라서 속도가 달라집니다. 
+현재는 1번으로 되어 있습니다.
+
+모든 상호 작용: Q
+공격: Space / Shift + Space 스킬
+이동: AWSD

@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Basic">
+      <UniqueIdentifier>{e743d26d-4954-42af-8a15-a357062056c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.FrameWork">
+      <UniqueIdentifier>{d77ffbde-7ac6-4970-aa8b-549e2855bf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{207284ce-419d-4fd6-95ba-360f375e5278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Timer">
+      <UniqueIdentifier>{eb1efe8c-eaee-430f-a4c4-e82c30720ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader">
+      <UniqueIdentifier>{ac2ef4d7-a4b9-4075-b309-9a5d93b9ffb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="98.external">
+      <UniqueIdentifier>{d761b15f-ab1f-4439-8351-87a8b9604e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component">
+      <UniqueIdentifier>{c8a9b285-7c5e-46bc-b5ac-0da6bfc99d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\02.Shader_Terrain">
+      <UniqueIdentifier>{24ec661f-f3b0-45db-96e6-53ac762211f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\00.Shader_Basic">
+      <UniqueIdentifier>{402721e2-cb61-46e3-a725-9bbfacfb845a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\03.Shader_BillBoard">
+      <UniqueIdentifier>{df1d75c7-55b1-4c9d-a2d9-6a0741d38732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\04.Shader_SkyBox">
+      <UniqueIdentifier>{cbf24ce5-4da5-4c53-b476-563233e3e0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\05.Shader_Standard">
+      <UniqueIdentifier>{551857dd-c2ce-4ba2-9ba7-514d17e0b07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\06.Shader_Collision">
+      <UniqueIdentifier>{d28c95c1-116a-4aa6-8620-f9814d3e3c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject">
+      <UniqueIdentifier>{3dcb082b-756b-44b9-8f27-0685c71892c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object">
+      <UniqueIdentifier>{6037695c-9c5a-4825-a36d-cca8882b3368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\01.Mesh">
+      <UniqueIdentifier>{c951d617-b4dc-41e2-b5dc-a665fdef1042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\02.Camera">
+      <UniqueIdentifier>{d3fece7e-8279-4b8f-bd0c-ea9c853bad08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\03.Player">
+      <UniqueIdentifier>{6eb052ae-533f-4970-b7f8-3074f9952be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\04.Terrain">
+      <UniqueIdentifier>{c8e9f728-2b04-4b92-95d4-6f367b3d8f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\05.UI">
+      <UniqueIdentifier>{529f9ee9-b331-44aa-ba4d-6b60349ea885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\06.Billboard">
+      <UniqueIdentifier>{4e9e31ff-232b-4a8f-a444-95d4ec8d4505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\07.Shader_Water">
+      <UniqueIdentifier>{e4e42729-7729-4bc3-8d37-c9cd7064afed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\08.Shader_Noise">
+      <UniqueIdentifier>{9c489511-bc7d-41a1-b46b-ceb308c6bb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\07.Noise">
+      <UniqueIdentifier>{100b3df3-19ca-46de-b25c-335348b52b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager">
+      <UniqueIdentifier>{919efc28-c14b-4ded-a521-4abcc39834b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\00.StaticObject">
+      <UniqueIdentifier>{6ba15521-172a-4b67-bb7d-f30e680d3e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\08.Monster">
+      <UniqueIdentifier>{4a438c11-53c2-4091-9e07-319474379f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\08.Monster\00.Yangmal">
+      <UniqueIdentifier>{2ad92508-825c-4d41-ba39-19695ea9f558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\Material">
+      <UniqueIdentifier>{9d2e9600-f99c-4a3e-b012-f25da7b542e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\01.Shader_MultiRender">
+      <UniqueIdentifier>{52df1ef2-5e2f-4118-946c-59a321440c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\01.Shader_MultiRender\00.FinalMRT">
+      <UniqueIdentifier>{7dc0f709-33d6-4c1e-bd36-4783bafff0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\01.Shader_MultiRender\01.LightMRT">
+      <UniqueIdentifier>{e5a62020-3f78-4847-9432-d6db25c4279c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\01.Shader_MultiRender\02.ShadowMRT">
+      <UniqueIdentifier>{dd52bcb4-1cfd-4bc8-9fb2-6d58d30990b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI">
+      <UniqueIdentifier>{9417cc16-35a4-4788-900b-3f84e60dc101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\00.Shader_Minimap">
+      <UniqueIdentifier>{444de70d-49ac-4632-853e-4decf7127c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\10.Shader_Lobby">
+      <UniqueIdentifier>{b7190c54-b327-4ade-9ea6-0a5c63f36ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\09.RotatingItem">
+      <UniqueIdentifier>{0fdf038a-fa3a-46ee-9718-707ee30e8557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\00.Mgr_Collision">
+      <UniqueIdentifier>{4ef95b3a-18cf-4d9f-aa92-38fed1391a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\01.Mgr_Item">
+      <UniqueIdentifier>{02af749a-6350-415e-b248-db5b2ec1c438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\02. Shader_Item">
+      <UniqueIdentifier>{6487eaa4-9b7e-47a7-a5db-4c81d29166df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\03. Shader_BillboadUI">
+      <UniqueIdentifier>{23401611-d984-400a-bb4f-f9d1e6cde478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\04. Shader_ObjHP">
+      <UniqueIdentifier>{d5bdec2d-42f4-4ae9-b754-02e8929bdade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\01. Shader_BaseUI">
+      <UniqueIdentifier>{2800c211-95e2-4cf8-b953-6ee0d5831b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\05. Shader_Radiation">
+      <UniqueIdentifier>{4208f043-c1ba-46e0-9fa3-ed9f60dd97ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\02.Mgr_Radiation">
+      <UniqueIdentifier>{ca2cc818-79a3-4616-911a-bce7db6f94ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\09.Shader_UI\06.Shader_MinimapFog">
+      <UniqueIdentifier>{b6757143-ec10-486f-8ac0-b5f66428a6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\03.Shader_BillBoard\00.Shader_SpecialFog">
+      <UniqueIdentifier>{e18da939-403b-4e85-9f13-985de3457bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\10. ParticleSystem">
+      <UniqueIdentifier>{c4bb26cd-05ed-46a1-8569-624aa09f90dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\10.EffectObject">
+      <UniqueIdentifier>{38e078c0-7c9b-4c1a-a5f7-c7e53a2eaf4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\11.Shader_Effect">
+      <UniqueIdentifier>{fa06a524-f8f1-4fae-b2de-af451786ed32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Scene">
+      <UniqueIdentifier>{f19cc1e0-13b7-4b91-b475-6e5423cf6014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Scene_Game2">
+      <UniqueIdentifier>{b9ad7e3b-a281-4137-b946-f1027606568a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\11.Floor">
+      <UniqueIdentifier>{4dde083c-4701-49d9-898d-e60d30756856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\12.Shader_Floor">
+      <UniqueIdentifier>{fd29288e-4c91-472e-a92b-90aa7dfbc16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\03.Mgr_Scene">
+      <UniqueIdentifier>{8cdbbb28-d90d-482f-a098-2f36fec5ee33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject">
+      <UniqueIdentifier>{e279bafe-410c-472d-b962-d853e4d82997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject\00.Object_DynamicObj">
+      <UniqueIdentifier>{894e9a34-13dc-4459-991b-bd08d44c5b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject\01.Object_Researcher">
+      <UniqueIdentifier>{a76bdb3d-260a-4702-8dc1-c92261ae60e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject\03.Object_DrugMaker">
+      <UniqueIdentifier>{e23eff63-20b3-4929-ab8e-50cb3f58d6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject\02.Object_ItemBox">
+      <UniqueIdentifier>{c7c18673-9461-4984-ad8e-a2c7bd2999f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\08.Monster\01.Tosm">
+      <UniqueIdentifier>{45a39bb1-e401-4422-a3b8-6bd29a821a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\08.Monster\02.Boss">
+      <UniqueIdentifier>{38b12cb2-d1ec-4b43-8084-bc0d0b935553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Shader\05.Shader_Standard\01.Shader_InstancingStandard">
+      <UniqueIdentifier>{a63d4c6b-4da0-4ffa-8ec1-1549b74acb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\08.Animation">
+      <UniqueIdentifier>{4bc3aa1e-70c8-4b3a-883d-43ad0074c13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\04. Mgr_IndoorControl">
+      <UniqueIdentifier>{dca43a0d-db9c-486d-a793-4debdc189c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\05.Mgr_Narration">
+      <UniqueIdentifier>{d63defad-a694-4e1d-880d-f5c84ae3e927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.GameManager\06.Mgr_Sound">
+      <UniqueIdentifier>{b17d86e3-dc68-4001-8554-17e6acb88c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject\04.Object_Door">
+      <UniqueIdentifier>{4df397b7-6576-439a-85a9-5b47969c54fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Component\GameObject\00.Object\01.DynamicObject\05.Object_Desk">
+      <UniqueIdentifier>{36f26ace-f89d-4234-975e-10fbc722c495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Scene_Ending">
+      <UniqueIdentifier>{e1cf1ff7-2aaf-4b54-a6b1-aab9ea1f75b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFramework.h">
+      <Filter>01.FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="CorruptLab.h">
+      <Filter>00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader12.h">
+      <Filter>98.external</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader12.h">
+      <Filter>98.external</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>98.external</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>05.Component\08.Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>03.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>05.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_BillBoard.h">
+      <Filter>05.Component\GameObject\06.Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Terrain.h">
+      <Filter>05.Component\GameObject\04.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Player.h">
+      <Filter>05.Component\GameObject\03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>05.Component\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh_Terrain.h">
+      <Filter>05.Component\GameObject\04.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh_SkyBox.h">
+      <Filter>05.Component\GameObject\06.Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>05.Component\GameObject\01.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>05.Component\GameObject\00.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>04.Shader\00.Shader_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh_Skinned.h">
+      <Filter>05.Component\GameObject\01.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Camera.h">
+      <Filter>05.Component\GameObject\02.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Terrain.h">
+      <Filter>04.Shader\02.Shader_Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_BillBoard.h">
+      <Filter>04.Shader\03.Shader_BillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Standard.h">
+      <Filter>04.Shader\05.Shader_Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_UI.h">
+      <Filter>05.Component\GameObject\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_CollisionBox.h">
+      <Filter>04.Shader\06.Shader_Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Noise.h">
+      <Filter>04.Shader\08.Shader_Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Nosie.h">
+      <Filter>05.Component\GameObject\07.Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_StaticObj.h">
+      <Filter>05.Component\GameObject\00.Object\00.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>05.Component\GameObject\08.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Yangmal.h">
+      <Filter>05.Component\GameObject\08.Monster\00.Yangmal</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_LightMRT.h">
+      <Filter>04.Shader\01.Shader_MultiRender\01.LightMRT</Filter>
+    </ClInclude>
+    <ClInclude Include="CShader_ShadowMRT.h">
+      <Filter>04.Shader\01.Shader_MultiRender\02.ShadowMRT</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_MRT.h">
+      <Filter>04.Shader\01.Shader_MultiRender\00.FinalMRT</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Minimap.h">
+      <Filter>04.Shader\09.Shader_UI\00.Shader_Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Lobby.h">
+      <Filter>04.Shader\10.Shader_Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr_Collision.h">
+      <Filter>09.GameManager\00.Mgr_Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr_Item.h">
+      <Filter>09.GameManager\01.Mgr_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_RotatingItem.h">
+      <Filter>05.Component\GameObject\09.RotatingItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Item.h">
+      <Filter>04.Shader\09.Shader_UI\02. Shader_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_BillboardUI.h">
+      <Filter>04.Shader\09.Shader_UI\03. Shader_BillboadUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_ObjHP.h">
+      <Filter>04.Shader\09.Shader_UI\04. Shader_ObjHP</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_BaseUI.h">
+      <Filter>04.Shader\09.Shader_UI\01. Shader_BaseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Radiation.h">
+      <Filter>04.Shader\09.Shader_UI\05. Shader_Radiation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr_Radiation.h">
+      <Filter>09.GameManager\02.Mgr_Radiation</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_MinmapFog.h">
+      <Filter>04.Shader\09.Shader_UI\06.Shader_MinimapFog</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_SpecialFog.h">
+      <Filter>04.Shader\03.Shader_BillBoard\00.Shader_SpecialFog</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystem_Particle.h">
+      <Filter>04.Shader\10. ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CShader_ParticleClass.h">
+      <Filter>04.Shader\10. ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Effect.h">
+      <Filter>05.Component\GameObject\10.EffectObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Effect.h">
+      <Filter>04.Shader\11.Shader_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game2.h">
+      <Filter>02.Scene\01.Scene_Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Floor.h">
+      <Filter>05.Component\GameObject\11.Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Floor.h">
+      <Filter>04.Shader\12.Shader_Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr_Scene.h">
+      <Filter>09.GameManager\03.Mgr_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_DynamicObj.h">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\00.Object_DynamicObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Researcher.h">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\01.Object_Researcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_ItemBox.h">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\02.Object_ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_DrugMaker.h">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\03.Object_DrugMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Tosm.h">
+      <Filter>05.Component\GameObject\08.Monster\01.Tosm</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Boss.h">
+      <Filter>05.Component\GameObject\08.Monster\02.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstancingStandardShader.h">
+      <Filter>04.Shader\05.Shader_Standard\01.Shader_InstancingStandard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr_IndoorControl.h">
+      <Filter>09.GameManager\04. Mgr_IndoorControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CNarrationMgr.h">
+      <Filter>09.GameManager\05.Mgr_Narration</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>09.GameManager\06.Mgr_Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Door.h">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\04.Object_Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Obect_Desk.h">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\05.Object_Desk</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>02.Scene\02.Scene_Ending</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>03.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>01.FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CorruptLab.cpp">
+      <Filter>00.Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>00.Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader12.cpp">
+      <Filter>98.external</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader12.cpp">
+      <Filter>98.external</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>05.Component\08.Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_BillBoard.cpp">
+      <Filter>05.Component\GameObject\06.Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Terrain.cpp">
+      <Filter>05.Component\GameObject\04.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Player.cpp">
+      <Filter>05.Component\GameObject\03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectLoader.cpp">
+      <Filter>05.Component\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>05.Component\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_Terrain.cpp">
+      <Filter>05.Component\GameObject\04.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_SkyBox.cpp">
+      <Filter>05.Component\GameObject\06.Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>05.Component\GameObject\01.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>05.Component\GameObject\00.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>04.Shader\00.Shader_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_Skinned.cpp">
+      <Filter>05.Component\GameObject\01.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Camera.cpp">
+      <Filter>05.Component\GameObject\02.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader-Terrain.cpp">
+      <Filter>04.Shader\02.Shader_Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Standard.cpp">
+      <Filter>04.Shader\05.Shader_Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_UI.cpp">
+      <Filter>05.Component\GameObject\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_CollisionBox.cpp">
+      <Filter>04.Shader\06.Shader_Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Noise.cpp">
+      <Filter>04.Shader\08.Shader_Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Nosie.cpp">
+      <Filter>05.Component\GameObject\07.Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_StaticObj.cpp">
+      <Filter>05.Component\GameObject\00.Object\00.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>05.Component\GameObject\08.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Yangmal.cpp">
+      <Filter>05.Component\GameObject\08.Monster\00.Yangmal</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_LightMRT.cpp">
+      <Filter>04.Shader\01.Shader_MultiRender\01.LightMRT</Filter>
+    </ClCompile>
+    <ClCompile Include="CShader_ShadowMRT.cpp">
+      <Filter>04.Shader\01.Shader_MultiRender\02.ShadowMRT</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_MRT.cpp">
+      <Filter>04.Shader\01.Shader_MultiRender\00.FinalMRT</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Minimap.cpp">
+      <Filter>04.Shader\09.Shader_UI\00.Shader_Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Lobby.cpp">
+      <Filter>04.Shader\10.Shader_Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr_Collision.cpp">
+      <Filter>09.GameManager\00.Mgr_Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr_Item.cpp">
+      <Filter>09.GameManager\01.Mgr_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_RotatingItem.cpp">
+      <Filter>05.Component\GameObject\09.RotatingItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Item.cpp">
+      <Filter>04.Shader\09.Shader_UI\02. Shader_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_BillboardUI.cpp">
+      <Filter>04.Shader\09.Shader_UI\03. Shader_BillboadUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_ObjHP.cpp">
+      <Filter>04.Shader\09.Shader_UI\04. Shader_ObjHP</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_BaseUI.cpp">
+      <Filter>04.Shader\09.Shader_UI\01. Shader_BaseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Radiation.cpp">
+      <Filter>04.Shader\09.Shader_UI\05. Shader_Radiation</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr_Radiation.cpp">
+      <Filter>09.GameManager\02.Mgr_Radiation</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_MinmapFog.cpp">
+      <Filter>04.Shader\09.Shader_UI\06.Shader_MinimapFog</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_SpecialFog.cpp">
+      <Filter>04.Shader\03.Shader_BillBoard\00.Shader_SpecialFog</Filter>
+    </ClCompile>
+    <ClCompile Include="CSystem_Particle.cpp">
+      <Filter>04.Shader\10. ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CShader_ParticleClass.cpp">
+      <Filter>04.Shader\10. ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Effect.cpp">
+      <Filter>05.Component\GameObject\10.EffectObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Effect.cpp">
+      <Filter>04.Shader\11.Shader_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Game2.cpp">
+      <Filter>02.Scene\01.Scene_Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Floor.cpp">
+      <Filter>05.Component\GameObject\11.Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Floor.cpp">
+      <Filter>04.Shader\12.Shader_Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr_Scene.cpp">
+      <Filter>09.GameManager\03.Mgr_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_DynamicObj.cpp">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\00.Object_DynamicObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Researcher.cpp">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\01.Object_Researcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_ItemBox.cpp">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\02.Object_ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_DrugMaker.cpp">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\03.Object_DrugMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="IndoorSecenMapObjectLoader.cpp">
+      <Filter>05.Component\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Tosm.cpp">
+      <Filter>05.Component\GameObject\08.Monster\01.Tosm</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Boss.cpp">
+      <Filter>05.Component\GameObject\08.Monster\02.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CInstancingStandardShader.cpp">
+      <Filter>04.Shader\05.Shader_Standard\01.Shader_InstancingStandard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr_IndoorControl.cpp">
+      <Filter>09.GameManager\04. Mgr_IndoorControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CNarrationMgr.cpp">
+      <Filter>09.GameManager\05.Mgr_Narration</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>09.GameManager\06.Mgr_Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_BillBoard.cpp">
+      <Filter>04.Shader\03.Shader_BillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Door.cpp">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\04.Object_Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Obect_Desk.cpp">
+      <Filter>05.Component\GameObject\00.Object\01.DynamicObject\05.Object_Desk</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>02.Scene\02.Scene_Ending</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CorruptLab.rc">
+      <Filter>99.Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Resource</Filter>
+    </Image>
+    <Image Include="CorruptLab.ico">
+      <Filter>99.Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders.hlsl">
+      <Filter>04.Shader\00.Shader_Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Terrain.hlsl">
+      <Filter>04.Shader\02.Shader_Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Light.hlsl">
+      <Filter>04.Shader\00.Shader_Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_SkyBox.hlsl">
+      <Filter>04.Shader\04.Shader_SkyBox</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Collision.hlsl">
+      <Filter>04.Shader\06.Shader_Collision</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_BillBoard.hlsl">
+      <Filter>04.Shader\03.Shader_BillBoard</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Noise.hlsl">
+      <Filter>04.Shader\08.Shader_Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Fog.hlsl">
+      <Filter>04.Shader\08.Shader_Noise</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_waters.hlsl">
+      <Filter>04.Shader\07.Shader_Water</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_TerrainShadow.hlsl">
+      <Filter>04.Shader\02.Shader_Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_LightTarget.hlsl">
+      <Filter>04.Shader\01.Shader_MultiRender\01.LightMRT</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_MRT.hlsl">
+      <Filter>04.Shader\01.Shader_MultiRender\00.FinalMRT</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Standard.hlsl">
+      <Filter>04.Shader\05.Shader_Standard</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_ShadowStandard.hlsl">
+      <Filter>04.Shader\05.Shader_Standard</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_UI.hlsl">
+      <Filter>04.Shader\09.Shader_UI</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Lobby.hlsl">
+      <Filter>04.Shader\10.Shader_Lobby</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_ParticleSystem.hlsl">
+      <Filter>04.Shader\10. ParticleSystem</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Effect.hlsl">
+      <Filter>04.Shader\11.Shader_Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL_Floor.hlsl">
+      <Filter>04.Shader\12.Shader_Floor</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
